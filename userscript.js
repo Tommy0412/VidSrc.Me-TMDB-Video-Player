@@ -25,7 +25,7 @@
     var player_url, location, iframeId;
 
     if (type === "movie") {
-        player_url = `https://vidsrc.xyz/movie/${api}`;
+        player_url = `https://vidsrc.xyz/embed/movie/${api}`;
         iframeId = "vidsrc.xyz.movie";
     } else if (type === "tv") {
         player_url = `https://vidsrc.xyz/embed/tv/${api}`;
